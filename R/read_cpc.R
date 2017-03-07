@@ -1,4 +1,4 @@
-#' Read CPCe data file
+#' Read a CPCe data file
 #'
 #' @param file
 #' @param encoding

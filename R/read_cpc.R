@@ -1,18 +1,13 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
-
+#' Read CPCe data file
+#'
+#' @param file
+#' @param encoding
+#' @param fileEncoding
+#'
+#' @return
+#' @export
+#'
+#' @examples
 read_cpc <- function(file, encoding = "unknown", fileEncoding = "") {
 	if (is.character(file)) {
 		file <- if (nzchar(fileEncoding))

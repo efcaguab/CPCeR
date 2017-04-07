@@ -1,0 +1,69 @@
+DFDFDF
+AFAFAF
+17
+"RCK", "Rock",DFDFDF
+"SND", "Sand",FFFF80
+"SIL", "Silt",DFDFDF
+"CR", "Dead Coral Rock",DFDFDF
+"RBL", "Rubble",DFDFDF
+"C", "Coral",FF80FF
+"FC", "Fire coral",FF8000
+"OC", "Soft coral",8080C0
+"DC", "Dead standing hard coral",BFBFBF
+"TA", "Turf Algae",80FF80
+"CA", "Coralline algae",DFDFDF
+"AA", "Algal Assemblage",804040
+"HA", "Halimeda",004000
+"SG", "Seagrass",408080
+"SP", "Sponge",800080
+"OT", "Other",DFDFDF
+"TWS", "Tape wand shadow",FF0000
+"RCK", "Rock", "RCK"
+"SND", "Sand", "SND"
+"SIL", "Silt", "SIL"
+"OT", "Other", "OT"
+"CR", "Dead coral rock", "CR"
+"DC", "Dead standing hard coral (recent / white)", "DC"
+"RBL", "Rubble", "RBL"
+"TA", "Fine turf algae", "TA"
+"CRTA", "Fine turf algae on dead coral rock", "TA"
+"DCTA", "Fine turf algae on dead standing coral", "TA"
+"RBTA", "Fine turf algae on rubble", "TA"
+"AA", "Algal assemblage", "AA"
+"DCAA", "Algal assemblage on dead standing coral", "AA"
+"CRAA", "Algal assemblage on dead coral rock", "AA"
+"RBAA", "Algal assemblage on rubble", "AA"
+"HA", "Halimeda", "HA"
+"CA", "Coralline algae", "CA"
+"ARCJUV", "Acropora juvenile", "C"
+"ACS", "Acropora staghorn", "C"
+"ACB", "Acropora short branching stag", "C"
+"ACO", "Acropora corymbose", "C"
+"ACD", "Acropora digitate", "C"
+"ACT", "Acropora tabular", "C"
+"ACTA", "Acropora arborescent table", "C"
+"ACP", "Acropora palifera", "C"
+"PHYS", "Physogyra", "C"
+"FUNG", "Fungia", "C"
+"PORM", "Porites massive", "C"
+"PORB", "Porites branching", "C"
+"TUBAS", "Tubastrea", "C"
+"MILL", "Millepora", "FC"
+"GORG", "Gorgonia", "OC"
+"SCOT", "Other soft corals", "OC"
+"RHY", "Rhytisma", "OC"
+"CB", "Branching Hard Coral Unident", "C"
+"CS", "Submassive Hard Coral Unident", "C"
+"CE", "Encrusting Hard Coral Unident", "C"
+"CF", "Foliose Hard Coral Unident", "C"
+"CM", "Massive Hard Coral Unident", "C"
+"UNK", "Unkown coral", "C"
+"SP", "Sponge", "SP"
+"SG", "Seagrass", "SG"
+"SGDET", "Seagrass detritus", "SG"
+"FSH", "Fish", "TWS"
+"Tape", "Tape", "TWS"
+"Wand", "Wand", "TWS"
+"Shad", "Shadow", "TWS"
+NOTES,NOTES,NOTES
+"HOL", "Holothurian", "NA"

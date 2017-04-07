@@ -9,12 +9,11 @@
 #'
 #' @examples
 read_codefile <- function(file, encoding = "unknown", fileEncoding = "") {
-
-	# object to be returned
-	list(major_categ = data.frame(major_code = NULL,
-																major_name = NULL,
-																col = NULL),
-			 minor_categ = data.frame(minor_code = NULL,
-			 												  minor_name = NULL,
-			 												  major_code = NULL))
+  # object to be returned
+  list(major_categ = data.frame(major_code = NULL,
+                                major_name = NULL,
+                                col = NULL),
+       minor_categ = data.frame(minor_code = NULL,
+                                minor_name = NULL,
+                                major_code = NULL))
 }

@@ -12,9 +12,9 @@ read_codefile <- function(file, encoding = "unknown", fileEncoding = "") {
         #open and read file
         con<-file(filename)#("C:/CPCe_41_inst/code/Aldabra code file svwr130523.txt") #
         open(con)
-        num.maj.categ <- as.integer(read.csv(con,header = FALSE, skip=2,nrow=1)) #3-th line - this is how many lines constitute major categories
-        maj.category <- read.csv(con,header = FALSE, skip=0,nrow = num.maj.categ)
-        tmp <- read.csv(con, header = FALSE, skip = 0)
+        num.maj.categ <- as.integer(read.csv(con,header = FALSE, sep = ", ", skip=2,nrow=1)) #3-th line - this is how many lines constitute major categories
+        maj.category <- read.csv(con,header = FALSE, sep = ", ", skip=0,nrow = num.maj.categ)
+        tmp <- read.csv(con, header = FALSE, sep = ", ", skip = 0)
         close(con)
         notes.line <- which(tmp$V3 == "NOTES")
         min.category <- tmp[1:(notes.line-1), 1:3]
